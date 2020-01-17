@@ -1,0 +1,16 @@
+body {
+  background-color: powderblue;
+  text-align: center;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+#list1 {
+  background-color: purple;
+  border: 2px solid powderblue;
+  color: orange;
+}
