@@ -9,8 +9,9 @@ p {
   color: red;
 }
 
-#list1 {
+.list1 {
   background-color: purple;
   border: 2px solid powderblue;
   color: orange;
+  padding: 10px;
 }
