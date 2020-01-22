@@ -1,17 +1,35 @@
 body {
-  background-color: powderblue;
+  background-color: #5378b8;
   text-align: center;
 }
 h1 {
   color: blue;
 }
+
+#myHeader {
+  border: 5px solid white;
+  color: #e36424;
+}
+
 p {
   color: red;
 }
 
 .list1 {
   background-color: purple;
-  border: 2px solid powderblue;
+  border: 2px solid red;
   color: orange;
   padding: 10px;
+  text-align: left;
+  border-right: 900px;
+}
+
+img {
+  float: left;
+}
+
+textarea {
+  float: right;
+  width: null;
+  resize: vertical;
 }
