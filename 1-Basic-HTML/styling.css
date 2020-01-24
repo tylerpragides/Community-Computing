@@ -9,27 +9,18 @@ h1 {
 #myHeader {
   border: 5px solid white;
   color: #e36424;
+  font-family: "Open Sans";
 }
 
 p {
   color: red;
 }
 
-.list1 {
-  background-color: purple;
-  border: 2px solid red;
-  color: orange;
-  padding: 10px;
-  text-align: left;
-  border-right: 900px;
-}
-
 img {
-  float: left;
+  border: 5px solid black;
 }
 
 textarea {
   float: right;
-  width: null;
   resize: vertical;
 }

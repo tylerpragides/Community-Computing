@@ -1,27 +1,18 @@
 function setup() {
-  // put setup code here
-  let elements = document.getElementsByClassName("list1");
-  document.getElementById('myHeader').addEventListener("click",changeFontSize);
+  document.getElementById('myImg').addEventListener("click",changeImage);
 
-  for (let elem of elements) {
-    elem.addEventListener("click",myFunction);
-  }
+  const images = ['chair.jpg', 'html.jpeg', 'websites.jpg', 'table.jp2', 'randomCircle.png'];
+  let whichImage = 0;
 
-  function myFunction(event) {
-    event.target.innerHTML = "";
-    // document.removeChild(event.target);
-  }
-
-  function changeFontSize() {
-    document.getElementById('myHeader').style.fontSize = "10px";
+  function changeImage() {
+    document.getElementById('myImg').src = images[whichImage];
+    whichImage++;
+    if (whichImage >= images.length){
+      whichImage = 0;
+    }
   }
 }
 
 function draw() {
-  // put drawing code here
-  let imgObject = document.getElementById("myImg");
-  imgObject.width = window.innerWidth / 2;
-
-  let textObject = document.getElementById("myText");
-  textObject.width = window.innerWidth / 2;
+  document.getElementById('myImg').width = window.innerWidth;
 }
