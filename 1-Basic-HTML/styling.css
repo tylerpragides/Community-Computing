@@ -2,14 +2,16 @@ body {
   background-color: #5378b8;
   text-align: center;
   text-shadow: 2px 2px #000000;
+  background-image: url('binary.jpg');
+  opacity: 0.9;
 }
 h1 {
   color: blue;
 }
 
 #myHeader {
-  margin-left: 350px;
-  margin-right: 350px;
+  /* margin-left: 350px;
+  margin-right: 350px; */
   border: 5px solid white;
   color: #e36424;
   font-family: "Open Sans";
@@ -28,6 +30,7 @@ div {
 }
 
 img {
-  border: 5px solid black;
+  border: 5px solid #364d75;
   background-color: #364d75;
+  opacity: 1;
 }

@@ -33,4 +33,6 @@ function setup() {
 
 function draw() {
   document.getElementById('myImg').width = window.innerWidth;
+  document.getElementById('2').width = window.innerWidth / 2 - 20;
+  document.getElementById('3').width = window.innerWidth / 2 - 20;
 }
